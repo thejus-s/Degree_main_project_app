@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/house"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/e"
+            android:icon="@drawable/chat"
+            android:title="Election" />
+
+        <item
+            android:id="@+id/cam"
+            android:icon="@drawable/chat"
+            android:title="camera" />
+
+        <item
+            android:id="@+id/a"
+            android:icon="@drawable/chat"
+            android:title="Application" />
+
+        <item
+            android:id="@+id/r"
+            android:icon="@drawable/chat"
+            android:title="Result" />
+        <item
+            android:id="@+id/com"
+            android:icon="@drawable/chat"
+            android:title="Complaint" />
+        <item
+            android:id="@+id/l"
+            android:icon="@drawable/padlock"
+            android:title="Logout" />
+
+    </group>
+</menu>
